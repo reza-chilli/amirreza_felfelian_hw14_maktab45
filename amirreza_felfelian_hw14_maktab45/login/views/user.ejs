@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/user.css">
+</head>
+<body>
+  <div class="modal_container">
+
+    <div class="user_modal">
+      <h1>change your account information</h1>
+      <form action="/users/user<%=userName%>" method="POST">
+        <div class="input_container">
+          <div>
+            <label for="">user name:</label>
+            <input type="text" name="userName" value="<%=userName%>">
+          </div>
+          <div class="email_container">
+            <label for="">email:</label>
+            <input type="text" name="email" value="<%=email%>">
+          </div>
+        </div>
+        <div class="sub-btn_container">
+          <button type="submit">submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="header_container">
+    <h1>hello <%=userName%></h1>
+    <p>here's your email address : <%=email%></p>
+  </div>
+
+  <p>
+    wanna change your account info??
+    <button id="changeAccountInfo">
+      click here
+    </button>
+  </p>
+  <div class="password_container">
+    <p>wanna change your password?</p>
+    <form action="/login/changePassword<%=userName%>" method="POST">
+      <input type="password" name="Password">
+      <button type="submit">change password now</button>
+    </form> 
+
+  </div>
+
+  <p>warning! <a href="/logout/logoutUser<%=userName%>">click here </a>when you want to close website for safety</p>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="/user.js"></script>
+</body>
+</html>

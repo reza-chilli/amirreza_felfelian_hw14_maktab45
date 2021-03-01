@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+  <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <%- include ('./partialls/headers.ejs'); -%>
+
+    <div class="row">
+      <% for (let i = 0;i < 3;i++) { %>
+        <div class='card'>
+          <img class="card-img" src="<%=info[i].photo%>" alt="...">
+          <h3><%=info[i].productName%></h3>
+          <p>رنگ:<%=info[i].color%></p>
+          <p>سایز:<%=info[i].size%></p>
+          <p>جنس:<%=info[i].texture%></p>
+          <div class="footer">
+            <span>قیمت:<%=info[i].price%></span>
+            <a class="shop-a" href="/shoe/<%=i+1%>">خرید</a>
+          </div>
+  
+        </div>
+      <% } %>
+
+
+
+    </div>
+    <div class="row">
+
+
+      <% for (let i = 3;i < 6;i++) { %>
+        <div class='card'>
+          <img class="card-img" src="<%=info[i].photo%>" alt="...">
+          <h3><%=info[i].productName%></h3>
+          <p>رنگ:<%=info[i].color%></p>
+          <p>سایز:<%=info[i].size%></p>
+          <p>جنس:<%=info[i].texture%></p>
+          <div class="footer">
+            <span>قیمت:<%=info[i].price%></span>
+            <a class="shop-a" href="/shoe/<%=i+1%>">خرید</a>
+          </div>
+  
+        </div>
+      <% } %>
+
+
+
+  </body>
+</html>

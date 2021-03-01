@@ -1,0 +1,32 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+}
+.modal_container {
+  position:fixed;
+  top:0;
+  display:none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+}
+.user_modal {
+  background-color: white;
+  padding:30px;
+  width: 40%;
+  height:auto;
+}
+.input_container > div {
+  margin-top: 20px;
+}
+.sub-btn_container {
+  margin-top:20px;
+}

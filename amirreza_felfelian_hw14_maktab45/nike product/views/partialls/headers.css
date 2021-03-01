@@ -1,0 +1,20 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing :  border-box;
+  direction :  rtl;
+  list-style-type :  none;
+  text-decoration :  none;
+}
+.navbar-container {
+  display:flex;
+  box-shadow: 5px 10px 8px #888888;
+  margin:5px;
+}
+li {
+  padding:15px;
+}
+i {
+  margin:5px;
+  color:black;
+}

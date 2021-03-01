@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="shoe.css">
+</head>
+<body>
+  <%- include ('./partialls/headers.ejs'); -%>
+  <div class="container">
+    <div class="container_info">
+      <h1>نام محصول:<%=shoe.productName%></h1>
+
+      <p>رنگ:<%=shoe.color%></p>
+
+      <p>جنس:<%=shoe.texture%></p>
+      <p>سایز:<%=shoe.size%></p>
+      <p>قیمت:<%=shoe.price%></p>
+    </div>
+    <div class="container_img">
+      <img class="img" src="<%=shoe.photo%>" alt="">
+    </div>
+  </div>
+</body>
+</html>

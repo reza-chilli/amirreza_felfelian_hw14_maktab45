@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+  
+  <div class="err_container">
+    <h1><%=err%></h1>
+  </div>
+
+  <div class="login-container">
+    <div class="login-form">
+      <div class="input-container">
+        <form action="/login" method="POST">
+          <div>
+            <input type="text" placeholder="User name" name="userName" class="text">
+          </div>
+
+          <div class="m-3">
+            <input type="text" placeholder="Password" name="Password" class="text">
+          </div>
+          <div class="m-3">
+            <input type="submit" class="sub-btn" value="submit">
+          </div>
+
+        </form>
+      </div>
+      <div class="sign-up">
+        not register? <a href="/signin"><span>sign up now!</span></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

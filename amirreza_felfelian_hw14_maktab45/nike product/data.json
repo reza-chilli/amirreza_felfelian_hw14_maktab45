@@ -1,0 +1,50 @@
+[
+  {
+    "productName": "کفش نایکی مدل 87",
+    "price": "299,000تومان",
+    "color": "سفید",
+    "size": "42",
+    "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTME-OYVCTcgGFIN91WmxM8o3tz7reYFXdwIQ&usqp=CAU",
+    "texture":"پلاستیک"
+  },
+  {
+    "productName": "کفش نایکی مدل 88",
+    "price": "324,000تومان",
+    "color": "مشکی",
+    "size": "42",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbNVK1hPKZo3INwd4GD7z30NmDVKAiRLX8w&usqp=CAU",
+    "texture":"کتان"
+  },
+  {
+    "productName": "کفش نایکی مدل 89",
+    "price": "411,000تومان",
+    "color": "قرمز",
+    "size": "40",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnbuIFtT-Ri6p-76W4F3igCTZNlIg22WGwFg&usqp=CAU",
+    "texture":"پارچه"
+  },
+  {
+    "productName": "کفش نایکی مدل 90",
+    "price": "1,000,000تومان",
+    "color": "زرد",
+    "size": "41",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSElAvHSAZCTC3Kzu6rmcAKZRsS5ZVg4ubMnw&usqp=CAU",
+    "texture":"کتان"
+  },
+  {
+    "productName": "کفش نایکی مدل 91",
+    "price": "415,000تومان",
+    "color": "سفید",
+    "size": "42",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSce_CvMUKjIojCsliNHuJbMA8OqtEWJLyhHw&usqp=CAU",
+    "texture":"پلاستیک"
+  },
+  {
+    "productName": "کفش نایکی مدل 92",
+    "price": "312,000تومان",
+    "color": "سفید",
+    "size": "39",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7d83Qriqs69Pw9D1cocpL9y1j9x3P_QIkA&usqp=CAU",
+    "texture":"پارچه"
+  }
+]
